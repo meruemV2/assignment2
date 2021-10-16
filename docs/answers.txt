@@ -1,0 +1,81 @@
+
+Git Lab date 10/15/2021
+
+
+GitHub Account set up 09/15/2020
+
+
+
+1. jerry@Jerrys-MacBook-Pro assignment2 % git add docs
+jerry@Jerrys-MacBook-Pro assignment2 % git commit -m "Added status.txt file to docs folder with assignment info"
+[master b1adbae] Added status.txt file to docs folder with assignment info
+ 1 file changed, 6 insertions(+)
+ create mode 100644 docs/status.txt
+jerry@Jerrys-MacBook-Pro assignment2 % git push
+Username for 'https://github.com': meruemV2
+Password for 'https://meruemV2@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/meruemV2/assignment2.git/'
+jerry@Jerrys-MacBook-Pro assignment2 % git push
+Username for 'https://github.com': meruemV2
+Password for 'https://meruemV2@github.com': 
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (13/13), 2.55 KiB | 2.55 MiB/s, done.
+Total 13 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/meruemV2/assignment2.git
+   f4975e5..b1adbae  master -> master
+jerry@Jerrys-MacBook-Pro assignment2 % 
+
+
+
+
+2. 10
+   git shortlog -s -n
+
+
+
+
+3. 2021-10-15 17:54:47 -060
+   git log -1 --pretty="format:%ci" /Users/jerry/Documents/GitHub/assignment2/README.md
+
+
+
+
+4. Version control
+   Allows programmers to simultaneous work on code
+
+
+
+5. Status lists which files are staged and unstaged while log displays the entire history of files.
+
+
+
+6. git log --follow -- /Users/jerry/Documents/GitHub/assignment2/Vehicle.h
+
+
+
+
+7. git log --grep=file
+
+
+
+
+8. I) What is inheritance? - ability to create classes that share attributes and methods of previously existed classes.
+   II) What is polymorphism? - the ability of objects taking on many forms whose operations can also be applied to values of some other type,
+   III) What is encapsulation? - the bundling of data and functions into a single component which helps keep them safe from outside interference
+
+
+
+
+9. The main differences are the use of Lieutenants as a secondary layer to aid with merges and pushes for dictator. These are all done by integration manager. 
+
+
+
+
+10. A team that large comprised of 100 developers would be able to be much more efficient if there were Lieutenants to solve conflicts rather than all 100 constantly having to solve new conflicts for each merge.
+	
